@@ -14,6 +14,13 @@
     .container { 
       margin-top: 50px; 
     }
+    table {
+      background-color: #DDEEFF; /* Cor alterada para azul claro */
+    }
+    th {
+      background-color: #004466; /* Azul escuro para o cabeçalho */
+      color: white;
+    }
   </style>
 </head>
 <body>

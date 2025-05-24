@@ -1,4 +1,4 @@
-package controller;
+package controll;
 
 import dao.VeiculoDAOImpl;
 import model.Veiculo;
