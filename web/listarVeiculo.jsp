@@ -9,16 +9,16 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <style>
     body { 
-      background-color: #a6a6a6;
+      background-color: #696969;
     }
     .container { 
       margin-top: 50px; 
     }
     table {
-      background-color: #DDEEFF; /* Cor alterada para azul claro */
+      background-color: #C0C0C0; /* Cor alterada para azul claro */
     }
     th {
-      background-color: #004466; /* Azul escuro para o cabeçalho */
+      background-color: #A9A9A9; /* Azul escuro para o cabeçalho */
       color: white;
     }
   </style>

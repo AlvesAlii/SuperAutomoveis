@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
-      body { background-color: #a6a6a6; }
+      body { background-color: #A9A9A9; }
       .container { margin-top: 50px; }
     </style>
 </head>

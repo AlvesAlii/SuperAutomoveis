@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
       body { 
-          background-color: #a6a6a6; /* Fundo cinza claro */
+          background-color: #A9A9A9; /* Fundo cinza claro */
       }
       .container { 
           margin-top: 50px; 
