@@ -7,6 +7,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
 
+        // Obtém os parâmetros do formulário
+
 @WebServlet("/AtualizarVeiculoServlet")
 public class AtualizarVeiculoServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)

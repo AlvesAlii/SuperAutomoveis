@@ -11,6 +11,8 @@ import java.util.List;
 
 public class VeiculoDAOImpl implements VeiculoDAO {
 
+    //Metodo de Input no Banco
+    
     @Override
     public void inserir(Veiculo veiculo) throws Exception {
         String sql = "INSERT INTO veiculo (nome_modelo, marca, ano, cor, placa, numero_chassi, " +
@@ -37,6 +39,8 @@ public class VeiculoDAOImpl implements VeiculoDAO {
         }
     }
 
+    //Metodo de Update no Banco
+    
     @Override
     public void atualizar(Veiculo veiculo) throws Exception {
         String sql = "UPDATE veiculo SET nome_modelo=?, marca=?, ano=?, cor=?, placa=?, " +
@@ -64,6 +68,8 @@ public class VeiculoDAOImpl implements VeiculoDAO {
         }
     }
 
+    //Metodo de Delete em base do ID
+    
     @Override
     public void deletar(int id) throws Exception {
         String sql = "DELETE FROM veiculo WHERE id=?";
@@ -77,6 +83,8 @@ public class VeiculoDAOImpl implements VeiculoDAO {
         }
     }
 
+    //Metodo de Pesquisa por ID
+    
     @Override
     public Veiculo buscarPorId(int id) throws Exception {
         String sql = "SELECT * FROM veiculo WHERE id=?";
@@ -95,6 +103,8 @@ public class VeiculoDAOImpl implements VeiculoDAO {
         return null;
     }
 
+        //Metodo de Pesquisa Geral
+    
     @Override
     public List<Veiculo> buscarTodos() throws Exception {
         List<Veiculo> lista = new ArrayList<>();

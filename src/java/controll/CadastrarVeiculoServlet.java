@@ -7,11 +7,12 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
 
+        // Obtém os parâmetros do formulário
+
 @WebServlet("/CadastrarVeiculoServlet")
 public class CadastrarVeiculoServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // Obtém os parâmetros do formulário
         String nomeModelo = request.getParameter("nomeModelo");
         String marca = request.getParameter("marca");
         int ano = Integer.parseInt(request.getParameter("ano"));
@@ -39,7 +40,7 @@ public class CadastrarVeiculoServlet extends HttpServlet {
         
         try {
             new VeiculoDAOImpl().inserir(veiculo);
-            // Redireciona para a listagem após o cadastro
+            // Redireciona para a tela de listagem apos o cadastro
             response.sendRedirect("ListarVeiculoServlet");
         } catch (Exception e) {
             throw new ServletException("Erro ao cadastrar veículo", e);

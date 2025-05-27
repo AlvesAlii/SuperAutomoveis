@@ -15,10 +15,10 @@
       margin-top: 50px; 
     }
     table {
-      background-color: #C0C0C0; /* Cor alterada para azul claro */
+      background-color: #C0C0C0;
     }
     th {
-      background-color: #A9A9A9; /* Azul escuro para o cabeçalho */
+      background-color: #A9A9A9;
       color: white;
     }
   </style>
@@ -26,7 +26,7 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-     <!-- Título exibido como texto fixo -->
+     <!-- Título -->
      <span class="navbar-brand">SuperAutomoveis</span>
      <div class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
@@ -36,6 +36,8 @@
           </ul>
      </div>
   </nav>
+  
+    <!-- Sistema de Listagem Visual -->
   
   <div class="container">
     <h1 class="mb-4">Listar Automóveis</h1>

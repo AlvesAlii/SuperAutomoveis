@@ -7,6 +7,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
 
+        //Recebe o parametro ID e exibe informações cadastradas
+
 @WebServlet("/PesquisaVeiculoServlet")
 public class PesquisaVeiculoServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
